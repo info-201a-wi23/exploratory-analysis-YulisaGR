@@ -16,7 +16,8 @@ perp_victems <- gw_data %>%
 ggplot(perp_victems, aes(x = perpetrator_type, y = total_victims, fill = total_victims )) +
   labs(title = "Type of Perpetrator vs Total Victims",
        x = "Perpetrator Type",
-       y = "Total Victims") +
+       y = "Total Victims",
+       fill = "Total Victims") +
   geom_bar(stat = "identity") +
   coord_flip()
 

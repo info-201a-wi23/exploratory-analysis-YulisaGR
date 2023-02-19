@@ -14,7 +14,7 @@ perp_victems <- gw_data %>%
   summarize(total_victims = sum(number_of_victims, na.rm = TRUE))
 
 ggplot(perp_victems, aes(x = perpetrator_type, y = total_victims, fill = total_victims )) +
-  labs(title = "Type of Perpetrator vs Total Victims",
+  labs(title = "Type of Perpetrator and Their Total Victims",
        x = "Perpetrator Type",
        y = "Total Victims",
        fill = "Total Victims") +

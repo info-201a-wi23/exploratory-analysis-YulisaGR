@@ -9,9 +9,11 @@ library("RColorBrewer")
 
 mydata<-read.csv("https://github.com/info-201a-wi23/final-project-proposal-riyapatel24/blob/main/global_witness_led_22-09-22.csv")
 
-View(mydata)
+deathcount_country <- mydata %>% 
+  group_by(perpetrator_type) %>% 
+  summarize(total_victims = sum(number_of_victims, na.rm = TRUE))
 
-ggplot(mydata, aes(x = "", y = country_numeric, fill = country)) +
+ggplot(deathcount_country, aes(x = country, y = total_victims, fill = total_victims)) +
 geom_bar(stat = "Deaths Per Country") +
 coord_polar("y")
 

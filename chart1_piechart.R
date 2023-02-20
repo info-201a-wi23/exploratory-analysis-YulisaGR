@@ -1,5 +1,5 @@
 install.packages("ggplot2")
-library(ggplot2)
+library("ggplot2")
 library("tidyverse")
 library("dplyr")
 library("RColorBrewer")

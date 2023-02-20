@@ -1,5 +1,8 @@
 install.packages("ggplot2")
 library(ggplot2)
+library("tidyverse")
+library("dplyr")
+library("RColorBrewer")
 
 # This data includes the number of activism related deaths by each country.
 # I've chosen to include this to see if there's any correlation between the number of deaths and the location of each country in the world.

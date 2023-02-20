@@ -1,4 +1,4 @@
-gw_data <- read.csv("global_witness_led_22-09-22.csv", stringsAsFactors = FALSE)
+gw_data <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/final-project-proposal-riyapatel24/main/global_witness_led_22-09-22.csv?token=GHSAT0AAAAAAB5ARTFKOGT7NKIEEVGZ5NL2Y7THPRA", stringsAsFactors = FALSE)
 
 library("ggplot2")
 library("plotly")

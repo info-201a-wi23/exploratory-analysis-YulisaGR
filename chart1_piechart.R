@@ -7,7 +7,7 @@ library("RColorBrewer")
 # This data includes the number of activism related deaths by each country.
 # I've chosen to include this to see if there's any correlation between the number of deaths and the location of each country in the world.
 
-mydata<-read.csv("https://github.com/info-201a-wi23/final-project-proposal-riyapatel24/blob/main/global_witness_led_22-09-22.csv")
+gw_data <- read.csv("global_witness_led_22-09-22.csv")
 
 deathcount_country <- mydata %>% 
   group_by(perpetrator_type) %>% 

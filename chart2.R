@@ -7,7 +7,7 @@ library("RColorBrewer")
 #It is included to let us know what type of perpetrators that led to the downfall of victims
 #and if there is a correlation on the type.
 
-gw_data <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/final-project-proposal-riyapatel24/main/global_witness_led_22-09-22.csv?token=GHSAT0AAAAAAB5ARTFLLU5DOJ6OHMXVSP3CY7TB3MQ", stringsAsFactors = FALSE)
+gw_data <- read.csv("global_witness_led_22-09-22.csv", stringsAsFactors = FALSE)
 
 perp_victems <- gw_data %>% 
   group_by(perpetrator_type) %>% 

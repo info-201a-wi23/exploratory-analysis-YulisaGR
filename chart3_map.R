@@ -35,3 +35,9 @@ ggplot(gw_world_shape_data) +
   labs(title = 'Land and Enviornmental Defenders Killed (2012-2021)', fill = 'Victims') + 
   scale_fill_continuous(low = 'yellow', high = 'red') +
   blank_theme
+
+# Lastly, we decided to make a choropleth map to display the attacks on environmental defenders around the globe. We decided to use this chart since it provides a better visualization of where these incidents are occurring. In addition, the choropleth maps are suitable for revealing patterns and displaying the distribution of these incidents. 
+# 
+# The map reveals that sections of North America, South America, and Asia have countries with higher amounts of land and environmental defenders deaths. Some notable countries we see accentuated in red and orange include Mexico, Brazil, Colombia, India, the Philippines, and Honduras. 
+# 
+# The chart also reveals an important issue: there is missing information regarding some countries. For example, there is no way to know if a country actually has a lower number of deaths or if it was difficult to capture data in these countries. This issue is critical to reflect on when working and analyzing the data in the future.

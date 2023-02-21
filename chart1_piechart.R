@@ -1,4 +1,3 @@
-install.packages("ggplot2")
 library("ggplot2")
 library("tidyverse")
 library("dplyr")
@@ -23,7 +22,7 @@ ggplot(deathcount_country, aes(x = "", y = total_victims, fill = country)) +
        fill = "Countries") +
   theme_void()
 
-# The visualization reveals that Brazil, Columbia, and the Democratic Republic of Congo have a significant gap of most deaths compared to other countries.
+# The visualization reveals that Brazil, Columbia, and the Philippines have a significant gap of most deaths compared to other countries.
 # I believe this is important to discerning whether victims fell prey to malicious intent, or simply fell victim to their respective country's crime and
 # violence rate. Were the victims we're focusing on targeted, or simply unlucky? I believe it's important to consider this aspect, since it would be
 # inaccurate to immediately attribute deaths as a direct response to their "activism". This notion applies even when the perpetrator type is listed,

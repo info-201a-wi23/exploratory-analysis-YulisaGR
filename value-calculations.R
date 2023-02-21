@@ -1,5 +1,6 @@
 gw_data <- read.csv("global_witness_led_22-09-22.csv", stringsAsFactors = FALSE)
 library('stringr')
+library(dplyr)
 
 # 1. Which country had the most deaths between 2012 and 2021? 
 country_with_max_deaths <- gw_data %>% 

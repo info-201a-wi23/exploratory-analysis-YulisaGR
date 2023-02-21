@@ -5,11 +5,11 @@ output: html_document
 
 ## Project title
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+Violence Against Land Defenders
 
 ### Authors
 
-Names of your team members
+Meghan Ngo, Yulisa Gonzalez-Reyes, Riya Patel, Joel Marquess
 
 ### Date
 
@@ -17,68 +17,86 @@ Winter 2022
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main question is to find out if there is any correlation between the attributes of protestors and the number of people being victimized by violence from authorities. To address this concern, we will look at the different attributes of each victim and their perpetrator, and analyze whether or not there is a correlation between certain attributes and the frequency of instances.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: environmental activism, violence, climate change
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+As climate change continues to grow in importance as an issue facing our planet, people are seen fighting against corporations and systems that continuously ignore the negative impact their actions have on the environment and the people disproportionately affected by the effects of climate change in favor of prioritizing their own interests. However, with change comes resistance, and those who fight against the selfish actions of corporations and governments are punished, often fatally, for standing up for the rights to their land and a healthy environment.
+
+Our research questions concerning the topic of brutality towards environmental activists are: is there a correlation between the country a defender is killed in and the number of environmental defenders being killed? Is there an age range that is more typically seen in the data? What are the most common industries that these activism instances are linked to? Have these killings fluctuated in number throughout the years, or have they stayed consistent?
+
+It is important to understand the correlation between the number of killings and the different factors that could potentially contribute to its numbers. Factors such as the country it occurred in, growth in killings throughout time, and the industry the activists were protesting in, not only show the desperation of the people living in those areas through a period of time, but also the brutality and the ruthlessness of selfish organizations and governments that refuse to listen to its citizens and only care about their own agendas. It’s important to know these details so that we can come to a greater understanding of the scope and context of the problem, and gain a better understanding of the root of the problem.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+Our topic is about land and environmental defenders who have lost their lives fighting to protect their land and climate. The article from Global Witness (2021), had talked about how 30% of those who lost their lives were linked to resource exploitation (like mining). These attacks were happening in Brazil, Peru, Nicaragua, and the Philippines. The article also goes into detail with a chart that has the number of killings in each country with Columbia having the highest amount in 2020. The article written by Jonathan Watts (2021), went over how the amount of killings in 2013 has doubled from 2019 and 2020 together. Mexico was the country named to have the second most amount of killings and the Philippines being third in 2020. When the Paris Climate Agreement (2016) was signed, there was data showing that four defenders would be killed every week. The Journal written by Kate Hallam (2017), provided different industries and their percentages related to the deaths of land defenders. 15% of them were linked to the hydropower industry, 15% were to the logging industry, and 20% were to agribusiness. They also mention the different countries and their numbers of killings in 2015. These articles relate to our topic since they provide data and statistics on the amount of killings in different countries and which kinds of industries they are related to.
+
+References:
+References
+
+Louis Wilson. “Global Witness Reports 227 Land and Environmental Activists Murdered in a Single Year, the Worst Figure on Record.” Global Witness, 13 Sept. 2021, https://www.globalwitness.org/en/press-releases/global-witness-reports-227-land-and-environmental-activists-murdered-single-year-worst-figure-record/.
+
+Jonathan Watts. “Murders of Environment and Land Defenders Hit Record High.” The Guardian, Guardian News and Media, 12 Sept. 2021, https://www.theguardian.com/environment/2021/sep/13/murders-environment-land-defenders-record-high.
+
+Kate Hallam. “Environmental Defenders: Murdered, Missing and at Risk.” Socialist Lawyer, no. 75, 2017, https://doi.org/10.13169/socialistlawyer.75.0040.
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+In this project, we will work with a dataset provided by [Global Witness](https://www.globalwitness.org/en/campaigns/environmental-activists/numbers-lethal-attacks-against-defenders-2012/). Global Witness is an international NGO challenging power abusers in different sectors, from oil to timber. They fight to protect human and environmental rights and to protect those disproportionately affected by the environmental exploitations of governments and corporations. The data includes 1,733 observations, each representing the death of an environmental defender from 2012 to 2021. The data contains 13 columns: date, name, gender, age, characteristic, industry driver, perpetrator, continent, country, and more. Global Witness collected this data by searching and reviewing reliable public sources online. They used keywords to set up search-engine alerts to identify relevant cases globally. The organization also connected with its local, national, and regional partners to collect information from incidents in those regions.
+
+One issue with the dataset is that it contains some missing information. For example, a few rows have no data on the person's age, gender, and characteristics. But beyond that, the data is limited since numerous environmental defenders never made it on the dataset. Global Witness only documents incidents reported by credible, published, and current online sources that contain details of the act and have apparent and established connections to an environmental issue. However, there are many deaths corporations cover-up, and some countries have strict press regulations that forbid the documentation of such cases. 
+When working with the data, we have to reflect on how the power of the companies and government has affected the data collected. 
+
+We must clarify and emphasize that the dataset underestimates the environmental defenders attacked from 2012 to 2021. We must also ask ourselves whether there is a group whose case is more likely to be documented than others. For example, the person characteristics column provides information to identify the individual. This column includes lawyers, demonstrators, journalists, state officials, and indigenous people. There is a clear power imbalance, and thus we must ask how the data collection process of indigenous people and other minority groups differed or was similar to the other people. What did Global Witness do to consider these communities' safety, and was there a precise and reliable representation of these groups?
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+Through this project, we hope to gain insight into the persisting violence against people fighting environmental injustices. Analyzing the numbers and quantifying the issue will help us provide a better understanding of the magnitude of these abusive actions. The data will also bring citizens, corporations, and governments awareness about this mistreatment. The findings are essential to holding corporations and governments accountable for destroying or allowing the destruction of the environment for their personal or financial gain at the expense of people living in those communities. Finally, the data is essential for policymakers to sustain their defense of policy changes. Knowing which regions and countries people are more endangered for defending their land and environment will help push change and action to these areas. As the climate crisis escalates, we need everyone to contribute to the fight against land and environmental exploitation. Through the collaborative efforts of the government, corporations, lawmakers, organizations, and citizens, we can protect those fighting on the frontlines of climate change and honor those who have sacrificed their lives for the good cause.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+A challenge that arises when analyzing data in this sort of subject is accuracy and causality. The data set we’re working with (the Global Witness) has compiled an impressive amount of data on these killings, even down to the place, perpetrator, and possible motive. However, it is inevitable that this sort of data would stir up some skepticism from critics. How exactly is Global Witness collecting this data? Some of the points the csv file makes seem oddly specific. While very specific data like this is extremely helpful in analyzing the root source, as well as the exact consequences of these statistics, it is also going to serve as a double-edged sword and paradoxically invalidate the authenticity of the data, at least for some uneducated circles. Another thing to note is the problem of determining causality in between the people killed, and their connection with the number of activists also killed near their location. While Global Witness’s data is very far-reaching, it still doesn’t give a concrete link between the victims and their cause. Of course, this is somewhat of an opinionated issue that is inevitable with any data set, no matter how authentic and accurate it is. While these are challenges that are worth noting, I think for most people who support the agenda that Global Witness pushes, this poses little to no problem.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+```{r, echo = FALSE, code = readLines("value-calculations.R"), message = FALSE, warning = FALSE}
+```
+While analyzing our dataset, we found out a couple of important values that we believe are pertinent to the whole discussion of violence against environmental activists. Between 2012 and 2021, the country with the most deaths was `r country_with_max_deaths`, with `r max_deaths_country` deaths in total. Within those 9 years, the year with the most deaths was `r year_max_deaths`. The most common perpetrator type amongst all cases was `r main_perpetrator`, however, the most common characteristic that victims shared were that they were `r main_person_characteristic`.
+
 
 ### Table
 
-Include a table of aggregate information
+In the table displayed below, it shows a collection of the amount of deaths that share the same country, industry, perpetrator type, and victim's characteristics. It was important to aggregate this data because in all the different variables that could affect the amount of total deaths throughout the years, it shows which sets of variables most commonly intersect with one another. When looking at different variables, it's important to not only note them individually, but also how commonly they appear with other same variables as well, in order to get a better understanding of the scope of the situation. The table displayed was truncated to the top 16 instances, in order to prevent the table from being too big while still displaying the most important information.
 
-Describe why you included the table and what information it reveals
+```{r, echo = FALSE, code = readLines("table.R"), message = FALSE, warning = FALSE}
+
+```
 
 ### Chart 1
 
 Include a chart
 
-Describe why you chose this chart and what information it reveals
+Chart 1 shows the top 10 countries with the most deaths through a pie chart, showing that Brazil, the Philippines, and Columbia have the most deaths even in comparison to the other countries in the top 10. We chose a pie chart to depict this because while pie charts aren't a good indicator of miniscule differences of data, it's a good visual indicator of big gaps between the data. Using the pie chart, we see that there is a big gap between the top 3 countries and the remaining 7. With such a massive difference, it raises questions of why there is such a big gap in these specific countries.
 
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r, echo = FALSE, code = readLines("chart1_piechart.R"), message = FALSE, warning = FALSE}
 ```
 
 ### Chart 2
 
-Include a chart
+Chart 2 displays the type of perpetrators and the number of their victims through a bar graph. It is included to let us know what type of perpetrators that led to the downfall of victims and if there is a correlation based on the type. The bar graph shows that the most common of perpetrator was Unspecified, but the second highest was Hitmen. The least common type of perpetrator was Corporations.
 
-Describe why you chose this chart and what information it reveals
+```{r, echo = FALSE, code = readLines("chart2.R"), message = FALSE, warning = FALSE}
+```
 
 ### Chart 3
 
-Include a chart
+Lastly, we decided to make a choropleth map to display the attacks on environmental defenders around the globe. We decided to use this chart since it provides a better visualization of where these incidents are occurring. In addition, the choropleth maps are suitable for revealing patterns and displaying the distribution of these incidents. 
 
-Describe why you chose this chart and what information it reveals
+The map reveals that sections of North America, South America, and Asia have countries with higher amounts of land and environmental defenders deaths. Some notable countries we see accentuated in red and orange include Mexico, Brazil, Colombia, India, the Philippines, and Honduras. The chart also reveals an important issue: there is missing information regarding some countries. For example, there is no way to know if a country actually has a lower number of deaths or if it was difficult to capture data in these countries. This issue is critical to reflect on when working and analyzing the data in the future.
+
+```{r, echo = FALSE, code = readLines("chart3_map.R"), message = FALSE, warning = FALSE}
+```

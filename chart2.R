@@ -21,6 +21,6 @@ ggplot(perp_victems, aes(x = perpetrator_type, y = total_victims, fill = total_v
   geom_bar(stat = "identity") +
   coord_flip()
 
-#The data reveals that corporations have the smallest amount of victems and that (besides unknown)
-#hitman have led to the most amount of victims. 
+# The data reveals that corporations have the smallest amount of victems and that (besides unknown)
+# hitman have led to the most amount of victims. 
 
